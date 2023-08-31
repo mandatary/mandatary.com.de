@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "author": "Christian Kaisermann",
   "license": "MIT",
-  "homepage": "https://mattummal.github.io/mattummal.com/",
+  "homepage": "https://mattummal.com/",
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env ELEVENTY_ENV=development eleventy --serve",
