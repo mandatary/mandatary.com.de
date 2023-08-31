@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "author": "Christian Kaisermann",
   "license": "MIT",
+  "homepage": "https://mattummal.github.io/mattummal.com/",
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env ELEVENTY_ENV=development eleventy --serve",
@@ -55,7 +56,9 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
     "gh-pages": "^6.0.0",
-    "js-levenshtein": "^1.1.6"
+    "js-levenshtein": "^1.1.6",
+    "vite": "^4.4.9"
   }
 }
