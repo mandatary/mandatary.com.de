@@ -1,1 +1,6 @@
-"@kiwi/prettier-config"
+{
+  "trailingComma": "all",
+  "singleQuote": true,
+  "semi": true,
+  "endOfLine": "auto"
+}
