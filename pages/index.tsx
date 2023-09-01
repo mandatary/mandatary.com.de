@@ -18,7 +18,7 @@ const Home = (): JSX.Element => (
     >
       <Container alignItems="center" alignContent="center">
         <Image
-          src="/me.webp"
+          src="/me.png"
           alt="Prabhjyoth Mattummal"
           width={120}
           height={120}
@@ -65,7 +65,7 @@ const Home = (): JSX.Element => (
           justifyItems="stretch"
           alignItems="stretch"
         >
-          <Link href="mailto:hello@shellbear.me">
+          <Link href="mailto:hello@mattummal.com">
             <Button width="100%">
               <motion.span
                 initial={{ display: 'inline-block' }}
