@@ -1,51 +1,73 @@
-# [mattummal.com](https://mattummal.com/)
+<p align="center">
+<img width="150" src="https://mattummal.com/developer.svg" />
+</p>
 
-Source code of my personal website & blog ✨
+<h2 align="center"><a href="https://mattummal.com/">Nik Schaefer</a></h2>
 
-Check the live version [here](https://mattummal.com/) ⚡️
+<p align="center">Full Stack Developer</p>
 
-[![home](.github/img/home.png)](https://mattummal.com/)
-[![blog](.github/img/blog.png)](https://mattummal.com/)
+<img src="https://mattummal.com/site.JPG" />
 
-## ✨ Features
+_Strained eyes? There's DarkMode too :p_
 
-- Responsive
-- RSS Feed
-- Blog with Notion API
-- Strongly typed
-- Fast thanks to Next.js and Vercel
-- Components made with styled-components
-- GitHub CI to build and lint project
+## 🚀 Quick start
 
-## 📦 Made with
+\*Run the site locally
 
-- next.js
-- typescript
-- styled-components
-- styled-system
-- react-notion-x
-- notion API
+### Step 1: Clone The Repo
 
-## 💻 Getting Started
+Fork the repository. then clone the repo locally by doing -
 
-Install dependencies:
+```
+git clone https://github.com/mattummal/mattummal.com
+```
 
-```bash
+### Step 2: Install Dependencies
+
+cd into the directory
+
+```
+cd mattummal.com
+```
+
+install all the dependencies
+
+```
 npm install
-# or
-yarn
 ```
 
-Then, run the development server:
+### Step 3: Start Development Server
 
-```bash
+Then start the development Server
+
+```
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After running the development server the site should be running on
+https://localhost:3000
 
-## 🗝 License
+## 📂 What's inside?
 
-This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details.
+A quick look at the folder structure of this project.
+
+```
+├── content
+│   ├───blog
+│   ├───projects
+│   └───snippets
+├── public
+└── src
+    ├───components
+    ├───lib
+    ├───pages
+    ├───styles
+```
+
+## 🛠️ Tools Used
+
+1. NextJS
+1. Tailwind CSS for Styling
+1. Vercel to Deploy
+
+Made with ❤️ and NextJS

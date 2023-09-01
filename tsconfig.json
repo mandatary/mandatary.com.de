@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "alwaysStrict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "lib": [
       "dom",
-      "es2017"
+      "esnext"
     ],
     "module": "esnext",
+    "target": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
@@ -19,38 +19,39 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
     "paths": {
-      "@icons": [
-        "icons"
-      ],
-      "@icons/*": [
-        "icons/*"
+      "@components/*": [
+        "components/*"
       ],
       "@styles/*": [
         "styles/*"
       ],
-      "@posts": [
-        "posts"
+      "@utils/*": [
+        "utils/*"
       ],
-      "@posts/*": [
-        "posts/*"
+      "@lib/*": [
+        "lib/*"
       ],
-      "@components": [
-        "components"
+      "@src/*": [
+        "/*"
       ],
-      "@components/*": [
-        "components/*"
+      "@pages/*": [
+        "pages/*"
       ]
     },
-    "incremental": true,
-    "target": "es5"
+    "incremental": true
   },
   "exclude": [
     "node_modules"
   ],
   "include": [
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "src/pages/_document.tsx",
+    "src/pages/_error.js",
+    "src/lib/gtag.js",
+    "src/pages/_app.tsx"
   ]
 }
