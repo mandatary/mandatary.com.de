@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-packages-lock.json
+
 # testing
 /coverage
 
@@ -14,7 +14,10 @@ packages-lock.json
 
 # production
 /build
-/dist
+
+# misc
+.DS_Store
+*.pem
 
 # debug
 npm-debug.log*
@@ -22,7 +25,14 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
 .vercel
+
+# typescript
+*.tsbuildinfo
+nudfolio.code-workspace

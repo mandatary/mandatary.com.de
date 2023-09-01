@@ -1,73 +1,36 @@
-<p align="center">
-<img width="150" src="https://mattummal.com/developer.svg" />
-</p>
+# rabツ's portfolio
+checkout the website at https://mattummal.com
 
-<h2 align="center"><a href="https://mattummal.com/">Nik Schaefer</a></h2>
+<img src="https://img.shields.io/badge/mattummal.com-1.0-green">  <img src="https://img.shields.io/badge/next.js-latest-lightblue"/>   <img src="https://img.shields.io/badge/react-18.x-blue"/>
 
-<p align="center">Full Stack Developer</p>
+<img src="public/screenshot.png" width="600px">
 
-<img src="https://mattummal.com/site.JPG" />
-
-_Strained eyes? There's DarkMode too :p_
-
-## 🚀 Quick start
-
-\*Run the site locally
-
-### Step 1: Clone The Repo
-
-Fork the repository. then clone the repo locally by doing -
-
-```
-git clone https://github.com/mattummal/mattummal.com
+## project structure
+```bash
+root/  # edit details.tsx here
+│
+├── out/  # exported project
+│
+├── public/  # replace favicon.ico and screenshot.png here
+│   └── images/  # project images are stored here
+└── src/
+    ├── components/  # all components used in the web app
+    │   └── layout/  # all layout components
+    └── pages/  # you can edit index.tsx here
 ```
 
-### Step 2: Install Dependencies
-
-cd into the directory
-
+## running locally
+```bash
+git clone https://github.com/0xCN/mattummal.com
 ```
-cd mattummal.com
+```bash
+cd mattummal.com && npm install
 ```
-
-install all the dependencies
-
-```
-npm install
-```
-
-### Step 3: Start Development Server
-
-Then start the development Server
-
-```
+```bash
 npm run dev
 ```
 
-After running the development server the site should be running on
-https://localhost:3000
+## forking this repo
+> this project is under MIT License. click <a href="LICENSE">here</a> to checkout it out.
 
-## 📂 What's inside?
-
-A quick look at the folder structure of this project.
-
-```
-├── content
-│   ├───blog
-│   ├───projects
-│   └───snippets
-├── public
-└── src
-    ├───components
-    ├───lib
-    ├───pages
-    ├───styles
-```
-
-## 🛠️ Tools Used
-
-1. NextJS
-1. Tailwind CSS for Styling
-1. Vercel to Deploy
-
-Made with ❤️ and NextJS
+you can fork this project and create your own portfolios just be sure to add a link back to <a href="https://mattummal.com">my website</a>.
