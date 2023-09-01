@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "author": "Prabhjyoth Mattummal",
   "license": "MIT",
-  "homepage": "https://mattummal.com/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
