@@ -14,7 +14,7 @@ importers:
       prettier-plugin-tailwindcss: 0.2.8_prettier@2.8.8
       turbo: 1.10.13
 
-  apps/enji.dev:
+  apps/mattummal.com:
     specifiers:
       '@headlessui/react': ^1.7.7
       '@headlessui/tailwindcss': ^0.1.2
