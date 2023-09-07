@@ -13,7 +13,7 @@ import dayjs from '@/utils/dayjs';
 function LastUpdate() {
   return (
     <a
-      href="https://github.com/enjidev/mattummal.com"
+      href="https://github.com/mattummal/mattummal.com"
       target="_blank"
       rel="noreferrer nofollow"
       className={clsx('hover:underline')}
@@ -118,7 +118,7 @@ function FooterDescription() {
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
           <a
-            href="https://twitter.com/enjidev"
+            href="https://twitter.com/mattummal"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -130,7 +130,7 @@ function FooterDescription() {
         </li>
         <li>
           <a
-            href="https://github.com/enjidev"
+            href="https://github.com/mattummal"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -142,7 +142,7 @@ function FooterDescription() {
         </li>
         <li>
           <a
-            href="https://figma.com/@enjidev"
+            href="https://figma.com/@prabhjyoth"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -225,7 +225,7 @@ function Footer() {
                     },
                     {
                       title: 'Source Code',
-                      href: 'https://github.com/enjidev/mattummal.com',
+                      href: 'https://github.com/mattummal/mattummal.com',
                       isInternal: false,
                     },
                     {
