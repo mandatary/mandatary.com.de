@@ -95,7 +95,7 @@ function HeaderTitle() {
           </strong>{' '}
           who loves designing intuitive,{' '}
           <span className={clsx('block')}>
-            clean and modern DevOps pipelines.{' '}
+            clean and modern DevOps/Data pipelines.{' '}
           </span>
         </m.h1>
       </span>

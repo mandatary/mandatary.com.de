@@ -9,7 +9,7 @@ function Index() {
     <>
       <Head
         title="Prabhjyoth Mattummal · Data Engineer"
-        description="An online portfolio featuring a showcase of my projects and some thoughts as a Data Engineer who loves intuitive, clean and modern UI design."
+        description="An online portfolio featuring a showcase of my projects and some thoughts as a Data Engineer who loves designing intuitive, clean and modern DevOps/Data pipelines."
         ogImage={`${getBaseUrl()}/assets/images/og-image.png`}
         overrideTitle
       />

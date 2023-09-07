@@ -113,7 +113,7 @@ function FooterDescription() {
       </div>
       <p className={clsx('mb-4 font-normal leading-relaxed')}>
         I&apos;m Prabhjyoth, a <strong>Data Engineer</strong> who loves
-        designing intuitive, clean and modern data pipelines.
+        designing intuitive, clean and modern DevOps/Data pipelines.
       </p>
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
