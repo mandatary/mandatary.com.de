@@ -5,7 +5,6 @@ import { PageOgImage } from '@/components/meta/OgImages';
 import type { NextRequest } from 'next/server';
 
 export const config = {
-  //runtime: 'experimental-edge'
   runtime: 'edge',
 };
 
