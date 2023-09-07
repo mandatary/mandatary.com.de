@@ -4,6 +4,7 @@ module.exports = {
     next: {
       rootDir: 'apps/mattummal.com',
     },
+  },
   root: true,
   extends: ['next-typescript'],
   parserOptions: {
