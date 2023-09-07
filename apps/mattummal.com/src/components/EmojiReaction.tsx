@@ -148,7 +148,7 @@ function EmojiReaction({
               src={animatedImage}
               width={48}
               height={48}
-              unoptimised
+              unoptimized
               priority
             />
           </m.div>
@@ -161,7 +161,7 @@ function EmojiReaction({
             src={src}
             width={48}
             height={48}
-            unoptimised
+            unoptimized
             priority
           />
         </m.div>
