@@ -21,7 +21,7 @@ importers:
         specifier: latest
         version: 1.10.13
 
-  apps/enji.dev:
+  apps/mattummal.com:
     dependencies:
       '@headlessui/react':
         specifier: ^1.7.7

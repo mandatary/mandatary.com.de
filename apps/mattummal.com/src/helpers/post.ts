@@ -96,7 +96,7 @@ export const getPostStructuredData = ({
         '@type': 'Person',
         name: 'Prabhjyoth Mattummal',
         jobTitle: 'Front-End Developer',
-        url: 'https://www.enji.dev/about',
+        url: 'https://www.mattummal.com/about',
       },
     ],
   });

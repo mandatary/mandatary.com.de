@@ -6,8 +6,8 @@ The following steps will get you up and running to contribute to this repository
 2. Clone your fork locally
 
    ```bash
-   git clone https://github.com/<your_github_username>/enji.dev.git
-   cd enji.dev
+   git clone https://github.com/<your_github_username>/mattummal.com.git
+   cd mattummal.com
    ```
 
 3. Setup all the dependencies and packages by running `pnpm install`
