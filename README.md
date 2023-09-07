@@ -1,36 +1,26 @@
-# rabツ's portfolio
-checkout the website at https://mattummal.com
+<div>
+  <h1>
+    Prabhjyoth Mattummal
+    &middot;
+    <img src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwww.enji.dev"/>
+    <img src="https://img.shields.io/github/deployments/enjidev/enji.dev/production?label=production&style=flat-square"/>
+    <img src="https://img.shields.io/github/commit-activity/m/enjidev/enji.dev?style=flat-square"/>
+  </h1>
+</div>
 
-<img src="https://img.shields.io/badge/mattummal.com-1.0-green">  <img src="https://img.shields.io/badge/next.js-latest-lightblue"/>   <img src="https://img.shields.io/badge/react-18.x-blue"/>
+A monorepo for my personal website and projects, built with Turborepo and pnpm.
 
-<img src="public/screenshot.png" width="600px">
+## 📘 [enji.dev](https://www.enji.dev)
 
-## project structure
-```bash
-root/  # edit details.tsx here
-│
-├── out/  # exported project
-│
-├── public/  # replace favicon.ico and screenshot.png here
-│   └── images/  # project images are stored here
-└── src/
-    ├── components/  # all components used in the web app
-    │   └── layout/  # all layout components
-    └── pages/  # you can edit index.tsx here
-```
+A personal website with a blog, project showcase, and work information.
 
-## running locally
-```bash
-git clone https://github.com/0xCN/mattummal.com
-```
-```bash
-cd mattummal.com && npm install
-```
-```bash
-npm run dev
-```
+https://user-images.githubusercontent.com/95107212/210668021-fd49431f-85a3-4bd7-bf9e-09639cb38922.mp4
 
-## forking this repo
-> this project is under MIT License. click <a href="LICENSE">here</a> to checkout it out.
+### Tech Stack
 
-you can fork this project and create your own portfolios just be sure to add a link back to <a href="https://mattummal.com">my website</a>.
+- 🚀 Next.js + TypeScript
+- ➰ Framer Motion
+- 🍃 Tailwind CSS
+- ✍ MDX
+
+[FIND OUT MORE →](apps/enji.dev)
