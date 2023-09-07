@@ -1,10 +1,10 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  //settings: {
-  //next: {
-  //   rootDir: 'apps/mattummal.com',
-  // },
-  //},
+  settings: {
+    next: {
+      rootDir: 'apps/mattummal.com',
+    },
+  },
   root: true,
   parser: '@typescript-eslint/parser',
   extends: ['next-typescript'],
