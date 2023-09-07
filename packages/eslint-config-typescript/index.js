@@ -4,6 +4,7 @@ module.exports = {
     next: {
       rootDir: 'apps/mattummal.com',
     },
+  },
   plugins: ['simple-import-sort'],
   extends: ['airbnb-base', 'airbnb-typescript/base', 'prettier'],
   rules: {

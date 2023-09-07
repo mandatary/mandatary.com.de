@@ -4,6 +4,7 @@ module.exports = {
     next: {
       rootDir: 'apps/mattummal.com',
     },
+  },
   plugins: ['@typescript-eslint', 'simple-import-sort'],
   extends: [
     'airbnb',
