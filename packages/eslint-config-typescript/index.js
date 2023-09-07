@@ -1,5 +1,9 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
+  settings: {
+    next: {
+      rootDir: 'apps/mattummal.com',
+    },
   plugins: ['simple-import-sort'],
   extends: ['airbnb-base', 'airbnb-typescript/base', 'prettier'],
   rules: {
