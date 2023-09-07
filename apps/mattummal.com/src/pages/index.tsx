@@ -8,8 +8,8 @@ function Index() {
   return (
     <>
       <Head
-        title="Prabhjyoth Mattummal · Front-End Developer"
-        description="An online portfolio featuring a showcase of my projects and some thoughts as a Front-End Developer who loves intuitive, clean and modern UI design."
+        title="Prabhjyoth Mattummal · Data Engineer"
+        description="An online portfolio featuring a showcase of my projects and some thoughts as a Data Engineer who loves intuitive, clean and modern UI design."
         ogImage={`${getBaseUrl()}/assets/images/og-image.png`}
         overrideTitle
       />

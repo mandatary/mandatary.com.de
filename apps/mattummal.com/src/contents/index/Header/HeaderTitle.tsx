@@ -25,7 +25,7 @@ function HeaderTitle() {
         animate={animation.show}
         transition={{ delay: 0.1 }}
       >
-        hi!
+        hi, there!
         <m.div
           initial={{
             opacity: 0,
@@ -91,10 +91,12 @@ function HeaderTitle() {
               'dark:text-slate-300'
             )}
           >
-            Front-End Developer
+            Data Engineer
           </strong>{' '}
-          who loves intuitive,{' '}
-          <span className={clsx('block')}>clean and modern UI design.</span>
+          who loves designing intuitive,{' '}
+          <span className={clsx('block')}>
+            clean and modern DevOps pipelines.{' '}
+          </span>
         </m.h1>
       </span>
     </div>
