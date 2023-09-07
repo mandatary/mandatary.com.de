@@ -6,7 +6,7 @@ import CleanIntuitive from '@/contents/index/CleanIntuitive';
 import DetailOriented from '@/contents/index/DetailOriented';
 import FeaturedCard from '@/contents/index/FeaturedCard';
 import Header from '@/contents/index/Header';
-import PrettyOptimized from '@/contents/index/PrettyOptimized';
+import PrettyOptimised from '@/contents/index/PrettyOptimised';
 import Quote from '@/contents/index/Quote';
 
 function FeaturedCardSection() {
@@ -52,8 +52,8 @@ function FeaturedCardSection() {
               <CodeIcon className={clsx('h-5 w-5 text-white')} />
             </div>
           }
-          title="Pretty & Optimized"
-          desc="Writing clean code is a top priority while keeping it as optimized as possible."
+          title="Pretty & optimised"
+          desc="Writing clean code is a top priority while keeping it as optimised as possible."
         />
       </div>
     </div>
@@ -77,7 +77,7 @@ function IndexContents() {
       <div className={clsx('hidden', 'lg:-mt-16 lg:mb-24 lg:block')}>
         <FeaturedCardSection />
       </div>
-      <div className={clsx('-mt-12 mb-12', 'md:mt-0 md:mb-24')}>
+      <div className={clsx('-mt-12 mb-12', 'md:mb-24 md:mt-0')}>
         <QuoteSection />
       </div>
       <section className={clsx('mb-12', 'lg:mb-24')}>
@@ -87,7 +87,7 @@ function IndexContents() {
         <DetailOriented />
       </section>
       <section className={clsx('mb-12', 'lg:mb-24')}>
-        <PrettyOptimized />
+        <PrettyOptimised />
       </section>
     </>
   );
