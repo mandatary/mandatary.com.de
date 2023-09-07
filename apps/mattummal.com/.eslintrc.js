@@ -13,4 +13,10 @@ module.exports = {
     //project: ['./tsconfig.json'],
     project: 'tsconfig.json',
   },
+  rules: {
+    '@next/next/no-html-link-for-pages': [
+      'error',
+      'apps/mattummal.com/src/pages/',
+    ],
+  },
 };

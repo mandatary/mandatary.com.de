@@ -3,6 +3,7 @@ module.exports = {
   plugins: ['simple-import-sort'],
   extends: ['airbnb-base', 'airbnb-typescript/base', 'prettier'],
   rules: {
+    '@next/next/no-html-link-for-pages': 'error',
     'import/extensions': 'off',
     'import/order': 'off',
     'import/prefer-default-export': 'off',
