@@ -6,6 +6,21 @@
       "@/*": ["*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["**/node_modules", "**/.*/*"],
+  "include": [
+    ".eslintrc.*",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.mts",
+    "**/*.js",
+    "**/*.cjs",
+    "**/*.mjs",
+    "**/*.jsx",
+    "**/*.json",
+    ".next/types/**/*.ts"
+  ]
+
+  //"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  //"exclude": ["node_modules"]
 }

@@ -1,20 +1,16 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  rules: {
-    '@next/next/no-html-link-for-pages': [
-      2,
-      path.join(__dirname, 'custom-pages'),
-    ],
-  },
   settings: {
     next: {
       rootDir: 'apps/mattummal.com',
     },
   },
   root: true,
+  parser: '@typescript-eslint/parser',
   extends: ['next-typescript'],
   parserOptions: {
     tsconfigRootDir: __dirname,
-    project: ['./tsconfig.json'],
+    //project: ['./tsconfig.json'],
+    project: 'tsconfig.json',
   },
 };
