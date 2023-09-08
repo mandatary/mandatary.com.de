@@ -14,6 +14,23 @@ A monorepo for my personal website and projects, built with Turborepo and pnpm.
 
 A personal website with a blog, project showcase, and work information.
 
+ALWAYS RUN `nvm use 18` before starting the development.
+
+```
+npm i pnpm@7.22
+
+nvm use 18
+
+pnpm i
+
+pnpm run dev
+
+pnpm run build
+
+git push (Vercel)
+
+```
+
 ### Tech Stack
 
 - 🚀 Next.js + TypeScript
