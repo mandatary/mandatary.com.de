@@ -11,7 +11,7 @@ import NavLogo from '@/components/navigations/NavLogo';
 import useOnScroll from '@/hooks/useOnScroll';
 
 const workLinks = [
-  { title: 'Mastery', href: '/work/skills-and-tools' },
+  { title: 'Mastery', href: '/work/mastery-and-instruments' },
   { title: 'Experience', href: '/work/experience' },
   { title: 'Studio', href: '/work/studio' },
   { title: 'Contact', href: '/work/contact' },
