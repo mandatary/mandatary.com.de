@@ -36,7 +36,7 @@ function ButtonResume() {
     <a
       target="_blank"
       rel="noreferrer nofollow"
-      href="https://prabhjyoth.mattumm.al/CV/technical_CV.pdf"
+      href="https://me.mattummal.com/CV/technical_CV.pdf"
       className={clsx('button button--ghost px-2', 'md:button--big md:px-2')}
     >
       <DocumentIcon className={clsx('h-5 w-5')} />
