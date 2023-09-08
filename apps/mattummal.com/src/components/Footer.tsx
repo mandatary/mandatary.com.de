@@ -189,8 +189,8 @@ function Footer() {
                       label: 'soon',
                     },
                     {
-                      title: 'Skills and Tools',
-                      href: '/work/skills-and-tools',
+                      title: 'Mastery and Instruments',
+                      href: '/work/mastery-and-instruments',
                     },
                     { title: 'Studio', href: '/work/studio' },
                   ]}

@@ -16,7 +16,7 @@ function Blog({ posts }: BlogProps) {
     <Page
       frontMatter={{
         title: 'Personal Blog',
-        description: 'Web development thoughts and stories.',
+        description: 'Data voyages, Cloud stories, and DevOps thoughts.',
       }}
       headerImage={<HeaderImage />}
     >
