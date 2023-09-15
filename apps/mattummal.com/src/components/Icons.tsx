@@ -1302,6 +1302,21 @@ export function VSCodeIcon(props: ComponentProps<'svg'>) {
     >
       <title>Visual Studio Code Icon</title>
 
+      <mask
+        id="a"
+        width="128"
+        height="128"
+        x="0"
+        y="0"
+        maskUnits="userSpaceOnUse"
+      >
+        <path
+          fill="#fff"
+          fillRule="evenodd"
+          d="M90.767 127.126a7.968 7.968 0 0 0 6.35-.244l26.353-12.681a8 8 0 0 0 4.53-7.209V21.009a8 8 0 0 0-4.53-7.21L97.117 1.12a7.97 7.97 0 0 0-9.093 1.548l-50.45 46.026L15.6 32.013a5.328 5.328 0 0 0-6.807.302l-7.048 6.411a5.335 5.335 0 0 0-.006 7.888L20.796 64 1.74 81.387a5.336 5.336 0 0 0 .006 7.887l7.048 6.411a5.327 5.327 0 0 0 6.807.303l21.974-16.68 50.45 46.025a7.96 7.96 0 0 0 2.743 1.793Zm5.252-92.183L57.74 64l38.28 29.058V34.943Z"
+          clipRule="evenodd"
+        />
+      </mask>
       <g mask="url(#a)">
         <path
           fill="#0065A9"
@@ -1327,6 +1342,77 @@ export function VSCodeIcon(props: ComponentProps<'svg'>) {
           opacity="0.25"
         />
       </g>
+      <defs>
+        <filter
+          id="b"
+          width="144.744"
+          height="113.408"
+          x="-8.41115"
+          y="22.5944"
+          color-interpolation-filters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          />
+          <feOffset />
+          <feGaussianBlur stdDeviation="4.16667" />
+          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+          <feBlend
+            in2="BackgroundImageFix"
+            mode="overlay"
+            result="effect1_dropShadow_1_36"
+          />
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_1_36"
+            result="shape"
+          />
+        </filter>
+        <filter
+          id="c"
+          width="56.6667"
+          height="144.007"
+          x="79.6667"
+          y="-8.0035"
+          color-interpolation-filters="sRGB"
+          filterUnits="userSpaceOnUse"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            result="hardAlpha"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          />
+          <feOffset />
+          <feGaussianBlur stdDeviation="4.16667" />
+          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+          <feBlend
+            in2="BackgroundImageFix"
+            mode="overlay"
+            result="effect1_dropShadow_1_36"
+          />
+          <feBlend
+            in="SourceGraphic"
+            in2="effect1_dropShadow_1_36"
+            result="shape"
+          />
+        </filter>
+        <linearGradient
+          id="d"
+          x1="63.9222"
+          x2="63.9222"
+          y1="0.329902"
+          y2="127.67"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#fff" />
+          <stop offset="1" stopColor="#fff" stop-opacity="0" />
+        </linearGradient>
+      </defs>
     </svg>
   );
 }

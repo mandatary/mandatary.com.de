@@ -40,8 +40,7 @@ function HeaderTechStack() {
         animate={animation.show}
         transition={{ delay: 0.6 }}
       >
-        have a profound appreciation for the following technology stack and
-        tools:
+        profound appreciation for the following technology stack and tools:
       </m.p>
       <m.ul
         className={clsx(
