@@ -15,5 +15,6 @@ module.exports = {
   },
   rules: {
     '@next/next/no-html-link-for-pages': ['error', 'src/pages'],
+    'react/no-unknown-property': ['error', { ignore: ['jsx'] }],
   },
 };

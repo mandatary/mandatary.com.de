@@ -649,8 +649,8 @@ export function DockerIcon(props: ComponentProps<'svg'>) {
     >
       <title>Docker Icon</title>
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#3A4D54"
         d="M73.8 50.8h11.3v11.5h5.7c2.6 0 5.3-.5 7.8-1.3 1.2-.4 2.6-1 3.8-1.7-1.6-2.1-2.4-4.7-2.6-7.3-.3-3.5.4-8.1 2.8-10.8l1.2-1.4 1.4 1.1c3.6 2.9 6.5 6.8 7.1 11.4 4.3-1.3 9.3-1 13.1 1.2l1.5.9-.8 1.6c-3.2 6.2-9.9 8.2-16.4 7.8-9.8 24.3-31 35.8-56.8 35.8-13.3 0-25.5-5-32.5-16.8l-.1-.2-1-2.1c-2.4-5.2-3.1-10.9-2.6-16.6l.2-1.7h9.6V50.8h11.3V39.6h22.5V28.3h13.5v22.5z"
       />
@@ -671,56 +671,56 @@ export function DockerIcon(props: ComponentProps<'svg'>) {
         d="M23.5 71.8c1.3 5.8 4.3 10.4 8.8 13.5 4.9-.1 8.9-.7 12-1.7.5-.2.9.1 1.1.5.2.5-.1.9-.5 1.1-.4.1-.8.3-1.3.4-2.4.7-5.2 1.2-8.6 1.4 8.5 4.4 20.8 4.3 34.9-1.1 8.5-3.3 16.8-8.2 24.2-14.1H23.5z"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#00ACD3"
         d="M28.4 52.7h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm3-12h9.8v9.8h-9.8v-9.8zm.9.8h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#23C2EE"
         d="M39.6 52.7h9.8v9.8h-9.8v-9.8zm.9.8h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#00ACD3"
         d="M50.9 52.7h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#23C2EE"
         d="M50.9 41.5h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm3.1 10.4H72v9.8h-9.8v-9.8zm.8.8h.8v8.1H63v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#00ACD3"
         d="M62.2 41.5H72v9.8h-9.8v-9.8zm.8.8h.8v8.1H63v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#23C2EE"
         d="M62.2 30.2H72V40h-9.8v-9.8zm.8.8h.8v8.1H63V31zm1.5 0h.8v8.1h-.8V31zm1.4 0h.8v8.1h-.8V31zm1.5 0h.8v8.1h-.8V31zm1.5 0h.8v8.1h-.8V31zm1.5 0h.8v8.1h-.8V31z"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#00ACD3"
         d="M73.5 52.7h9.8v9.8h-9.8v-9.8zm.8.8h.8v8.1h-.8v-8.1zm1.4 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1zm1.5 0h.8v8.1h-.8v-8.1z"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#D4EEF1"
         d="M48.8 78.3c1.5 0 2.7 1.2 2.7 2.7 0 1.5-1.2 2.7-2.7 2.7-1.5 0-2.7-1.2-2.7-2.7 0-1.5 1.2-2.7 2.7-2.7"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         fill="#3A4D54"
         d="M48.8 79.1c.2 0 .5 0 .7.1-.2.1-.4.4-.4.7 0 .4.4.8.8.8.3 0 .6-.2.7-.4.1.2.1.5.1.7 0 1.1-.9 1.9-1.9 1.9-1.1 0-1.9-.9-1.9-1.9 0-1 .8-1.9 1.9-1.9M1.1 72.8h125.4c-2.7-.7-8.6-1.6-7.7-5.2-5 5.7-16.9 4-20 1.2-3.4 4.9-23 3-24.3-.8-4.2 5-17.3 5-21.5 0-1.4 3.8-21 5.7-24.3.8-3 2.8-15 4.5-20-1.2 1.1 3.5-4.9 4.5-7.6 5.2"
       />
@@ -747,8 +747,8 @@ export function AzureIcon(props: ComponentProps<'svg'>) {
         y2="134.423"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#114A8B" />
-        <stop offset="1" stop-color="#0669BC" />
+        <stop stopColor="#114A8B" />
+        <stop offset="1" stopColor="#0669BC" />
       </linearGradient>
       <linearGradient
         id="azure-original-b"
@@ -758,11 +758,11 @@ export function AzureIcon(props: ComponentProps<'svg'>) {
         y2="71.076"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-opacity=".3" />
-        <stop offset=".071" stop-opacity=".2" />
-        <stop offset=".321" stop-opacity=".1" />
-        <stop offset=".623" stop-opacity=".05" />
-        <stop offset="1" stop-opacity="0" />
+        <stop stopOpacity=".3" />
+        <stop offset=".071" stopOpacity=".2" />
+        <stop offset=".321" stopOpacity=".1" />
+        <stop offset=".623" stopOpacity=".05" />
+        <stop offset="1" stopOpacity="0" />
       </linearGradient>
       <linearGradient
         id="azure-original-c"
@@ -772,8 +772,8 @@ export function AzureIcon(props: ComponentProps<'svg'>) {
         y2="129.525"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#3CCBF4" />
-        <stop offset="1" stop-color="#2892DF" />
+        <stop stopColor="#3CCBF4" />
+        <stop offset="1" stopColor="#2892DF" />
       </linearGradient>
       <path
         d="M46.09.002h40.685L44.541 125.137a6.485 6.485 0 01-6.146 4.413H6.733a6.482 6.482 0 01-5.262-2.699 6.474 6.474 0 01-.876-5.848L39.944 4.414A6.488 6.488 0 0146.09 0z"
@@ -817,8 +817,8 @@ export function PythonIcon(props: ComponentProps<'svg'>) {
         y2="1151.089"
         gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"
       >
-        <stop offset="0" stop-color="#5A9FD4" />
-        <stop offset="1" stop-color="#306998" />
+        <stop offset="0" stopColor="#5A9FD4" />
+        <stop offset="1" stopColor="#306998" />
       </linearGradient>
       <linearGradient
         id="python-original-b"
@@ -829,8 +829,8 @@ export function PythonIcon(props: ComponentProps<'svg'>) {
         y2="1149.537"
         gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"
       >
-        <stop offset="0" stop-color="#FFD43B" />
-        <stop offset="1" stop-color="#FFE873" />
+        <stop offset="0" stopColor="#FFD43B" />
+        <stop offset="1" stopColor="#FFE873" />
       </linearGradient>
       <path
         fill="url(#python-original-a)"
@@ -850,8 +850,8 @@ export function PythonIcon(props: ComponentProps<'svg'>) {
         gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" stop-color="#B8B8B8" stop-opacity=".498" />
-        <stop offset="1" stop-color="#7F7F7F" stop-opacity="0" />
+        <stop offset="0" stopColor="#B8B8B8" stopOpacity=".498" />
+        <stop offset="1" stopColor="#7F7F7F" stopOpacity="0" />
       </radialGradient>
       <path
         opacity=".444"
@@ -1018,14 +1018,14 @@ export function PShellIcon(props: ComponentProps<'svg'>) {
         gradientTransform="matrix(1 0 0 -1 0 128)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" stop-color="#a9c8ff" />
-        <stop offset="1" stop-color="#c7e6ff" />
+        <stop offset="0" stopColor="#a9c8ff" />
+        <stop offset="1" stopColor="#c7e6ff" />
       </linearGradient>
       <path
         fill="url(#a)"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M7.2 110.5c-1.7 0-3.1-.7-4.1-1.9-1-1.2-1.3-2.9-.9-4.6l18.6-80.5c.8-3.4 4-6 7.4-6h92.6c1.7 0 3.1.7 4.1 1.9 1 1.2 1.3 2.9.9 4.6l-18.6 80.5c-.8 3.4-4 6-7.4 6H7.2z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
         opacity=".8"
       />
       <linearGradient
@@ -1037,29 +1037,29 @@ export function PShellIcon(props: ComponentProps<'svg'>) {
         gradientTransform="matrix(1 0 0 -1 0 128)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" stop-color="#2d4664" />
-        <stop offset=".169" stop-color="#29405b" />
-        <stop offset=".445" stop-color="#1e2f43" />
-        <stop offset=".79" stop-color="#0c131b" />
+        <stop offset="0" stopColor="#2d4664" />
+        <stop offset=".169" stopColor="#29405b" />
+        <stop offset=".445" stopColor="#1e2f43" />
+        <stop offset=".79" stopColor="#0c131b" />
         <stop offset="1" />
       </linearGradient>
       <path
         fill="url(#b)"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M120.3 18.5H28.5c-2.9 0-5.7 2.3-6.4 5.2L3.7 104.3c-.7 2.9 1.1 5.2 4 5.2h91.8c2.9 0 5.7-2.3 6.4-5.2l18.4-80.5c.7-2.9-1.1-5.3-4-5.3z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="#2C5591"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M64.2 88.3h22.3c2.6 0 4.7 2.2 4.7 4.9s-2.1 4.9-4.7 4.9H64.2c-2.6 0-4.7-2.2-4.7-4.9s2.1-4.9 4.7-4.9zM78.7 66.5c-.4.8-1.2 1.6-2.6 2.6L34.6 98.9c-2.3 1.6-5.5 1-7.3-1.4-1.7-2.4-1.3-5.7.9-7.3l37.4-27.1v-.6l-23.5-25c-1.9-2-1.7-5.3.4-7.4 2.2-2 5.5-2 7.4 0l28.2 30c1.7 1.9 1.8 4.5.6 6.4z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
       <path
         fill="#FFF"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         d="M77.6 65.5c-.4.8-1.2 1.6-2.6 2.6L33.6 97.9c-2.3 1.6-5.5 1-7.3-1.4-1.7-2.4-1.3-5.7.9-7.3l37.4-27.1v-.6l-23.5-25c-1.9-2-1.7-5.3.4-7.4 2.2-2 5.5-2 7.4 0l28.2 30c1.7 1.8 1.8 4.4.5 6.4zM63.5 87.8h22.3c2.6 0 4.7 2.1 4.7 4.6 0 2.6-2.1 4.6-4.7 4.6H63.5c-2.6 0-4.7-2.1-4.7-4.6 0-2.6 2.1-4.6 4.7-4.6z"
-        clip-rule="evenodd"
+        clipRule="evenodd"
       />
     </svg>
   );
@@ -1168,11 +1168,11 @@ export function IJIdeaIcon(props: ComponentProps<'svg'>) {
           y2="56.78"
           gradientTransform="rotate(.104) scale(1.21905)"
         >
-          <stop offset=".09" stop-color="#fc801d" />
-          <stop offset=".23" stop-color="#b07f61" />
-          <stop offset=".41" stop-color="#577db3" />
-          <stop offset=".53" stop-color="#1e7ce6" />
-          <stop offset=".59" stop-color="#087cfa" />
+          <stop offset=".09" stopColor="#fc801d" />
+          <stop offset=".23" stopColor="#b07f61" />
+          <stop offset=".41" stopColor="#577db3" />
+          <stop offset=".53" stopColor="#1e7ce6" />
+          <stop offset=".59" stopColor="#087cfa" />
         </linearGradient>
         <linearGradient
           id="b"
@@ -1183,16 +1183,16 @@ export function IJIdeaIcon(props: ComponentProps<'svg'>) {
           y2="6.52"
           gradientTransform="rotate(.104) scale(1.21905)"
         >
-          <stop offset="0" stop-color="#fe2857" />
-          <stop offset=".08" stop-color="#cb3979" />
-          <stop offset=".16" stop-color="#9e4997" />
-          <stop offset=".25" stop-color="#7557b2" />
-          <stop offset=".34" stop-color="#5362c8" />
-          <stop offset=".44" stop-color="#386cda" />
-          <stop offset=".54" stop-color="#2373e8" />
-          <stop offset=".66" stop-color="#1478f2" />
-          <stop offset=".79" stop-color="#0b7bf8" />
-          <stop offset="1" stop-color="#087cfa" />
+          <stop offset="0" stopColor="#fe2857" />
+          <stop offset=".08" stopColor="#cb3979" />
+          <stop offset=".16" stopColor="#9e4997" />
+          <stop offset=".25" stopColor="#7557b2" />
+          <stop offset=".34" stopColor="#5362c8" />
+          <stop offset=".44" stopColor="#386cda" />
+          <stop offset=".54" stopColor="#2373e8" />
+          <stop offset=".66" stopColor="#1478f2" />
+          <stop offset=".79" stopColor="#0b7bf8" />
+          <stop offset="1" stopColor="#087cfa" />
         </linearGradient>
         <linearGradient
           id="c"
@@ -1203,14 +1203,14 @@ export function IJIdeaIcon(props: ComponentProps<'svg'>) {
           y2="125.99"
           gradientTransform="rotate(.104) scale(1.21905)"
         >
-          <stop offset="0" stop-color="#fe2857" />
-          <stop offset=".08" stop-color="#fe295f" />
-          <stop offset=".21" stop-color="#ff2d76" />
-          <stop offset=".3" stop-color="#ff318c" />
-          <stop offset=".38" stop-color="#ea3896" />
-          <stop offset=".55" stop-color="#b248ae" />
-          <stop offset=".79" stop-color="#5a63d6" />
-          <stop offset="1" stop-color="#087cfa" />
+          <stop offset="0" stopColor="#fe2857" />
+          <stop offset=".08" stopColor="#fe295f" />
+          <stop offset=".21" stopColor="#ff2d76" />
+          <stop offset=".3" stopColor="#ff318c" />
+          <stop offset=".38" stopColor="#ea3896" />
+          <stop offset=".55" stopColor="#b248ae" />
+          <stop offset=".79" stopColor="#5a63d6" />
+          <stop offset="1" stopColor="#087cfa" />
         </linearGradient>
       </defs>
       <path
@@ -1273,7 +1273,7 @@ export function TerraformIcon(props: ComponentProps<'svg'>) {
       {...props}
     >
       <title>TerraForm Icon</title>
-      <g fill-rule="evenodd">
+      <g fillRule="evenodd">
         <path
           d="M77.941 44.5v36.836L46.324 62.918V26.082zm0 0"
           fill="#5c4ee5"
@@ -1321,9 +1321,9 @@ export function VSCodeIcon(props: ComponentProps<'svg'>) {
         </g>
         <path
           fill="url(#d)"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M90.69 127.126a7.968 7.968 0 0 0 6.349-.244l26.353-12.681a8 8 0 0 0 4.53-7.21V21.009a8 8 0 0 0-4.53-7.21L97.039 1.12a7.97 7.97 0 0 0-9.093 1.548l-50.45 46.026-21.974-16.68a5.328 5.328 0 0 0-6.807.302l-7.048 6.411a5.336 5.336 0 0 0-.006 7.888L20.718 64 1.662 81.386a5.335 5.335 0 0 0 .006 7.888l7.048 6.411a5.328 5.328 0 0 0 6.807.303l21.975-16.681 50.45 46.026a7.959 7.959 0 0 0 2.742 1.793Zm5.252-92.184L57.662 64l38.28 29.057V34.943Z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
           opacity="0.25"
         />
       </g>
