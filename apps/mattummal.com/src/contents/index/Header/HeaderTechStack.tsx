@@ -9,13 +9,19 @@ import {
   VSCodeIcon,
   ScalaIcon,
   PostgresIcon,
+  RIcon,
   StackOverflowIcon,
+  AnsibleIcon,
+  GCPIcon,
   PythonIcon,
+  KafkaIcon,
+  AirflowIcon,
   KubernetesIcon,
   PShellIcon,
   IJIdeaIcon,
   JenkinsIcon,
   VIMIcon,
+  SparkIcon,
   TerraformIcon,
   AzureIcon,
   AWSIcon,
@@ -67,6 +73,13 @@ function HeaderTechStack() {
               <PythonIcon className={clsx('h-6 w-6')} />
             </div>
           </m.li>
+          <m.li variants={animation} className="mb-2">
+            <div
+              className={clsx('transition duration-200 hover:text-[#3178C6]')}
+            >
+              <RIcon className={clsx('h-6 w-6')} />
+            </div>
+          </m.li>
         </ul>
 
         <ul>
@@ -83,6 +96,14 @@ function HeaderTechStack() {
               className={clsx('transition duration-200 hover:text-[#06B6D4]')}
             >
               <JenkinsIcon className={clsx('h-6 w-6')} />
+            </div>
+          </m.li>
+
+          <m.li variants={animation} className="mb-2">
+            <div
+              className={clsx('transition duration-200 hover:text-[#06B6D4]')}
+            >
+              <AnsibleIcon className={clsx('h-6 w-6')} />
             </div>
           </m.li>
 
@@ -108,7 +129,41 @@ function HeaderTechStack() {
             <div
               className={clsx('transition duration-200 hover:text-[#3178C6]')}
             >
+              <GCPIcon className={clsx('h-6 w-6')} />
+            </div>
+          </m.li>
+
+          <m.li variants={animation} className="mb-2">
+            <div
+              className={clsx('transition duration-200 hover:text-[#3178C6]')}
+            >
               <AWSIcon className={clsx('h-6 w-6')} />
+            </div>
+          </m.li>
+        </ul>
+
+        <ul>
+          <m.li variants={animation} className="mb-2">
+            <div
+              className={clsx('transition duration-200 hover:text-[#3178C6]')}
+            >
+              <SparkIcon className={clsx('h-6 w-6')} />
+            </div>
+          </m.li>
+
+          <m.li variants={animation} className="mb-2">
+            <div
+              className={clsx('transition duration-200 hover:text-[#06B6D4]')}
+            >
+              <KafkaIcon className={clsx('h-6 w-6')} />
+            </div>
+          </m.li>
+
+          <m.li variants={animation} className="mb-2">
+            <div
+              className={clsx('transition duration-200 hover:text-[#06B6D4]')}
+            >
+              <AirflowIcon className={clsx('h-6 w-6')} />
             </div>
           </m.li>
         </ul>
