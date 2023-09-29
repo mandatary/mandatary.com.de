@@ -112,13 +112,13 @@ function FooterDescription() {
         About Me
       </div>
       <p className={clsx('mb-4 font-normal leading-relaxed')}>
-        I&apos;m Prabhjyoth, a <strong>Data Engineer</strong> who loves
-        designing intuitive, clean and modern DevOps/Data pipelines.
+        I&apos;m manDatary, a <strong>Data Engineer</strong> who loves designing
+        intuitive, clean and modern DevOps/Data pipelines.
       </p>
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
           <a
-            href="https://twitter.com/_prabhjyoth"
+            href="https://twitter.com/_manDatary"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -130,7 +130,7 @@ function FooterDescription() {
         </li>
         <li>
           <a
-            href="https://github.com/mattummal"
+            href="https://github.com/mandatary"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -142,7 +142,7 @@ function FooterDescription() {
         </li>
         <li>
           <a
-            href="https://figma.com/@prabhjyoth"
+            href="https://figma.com/@manDatary"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
@@ -245,7 +245,7 @@ function Footer() {
           )}
         >
           <div className={clsx('font-semibold')}>
-            &copy; {dayjs().format('YYYY')}, Prabhjyoth Mattummal
+            &copy; {dayjs().format('YYYY')}, manDatary Mattummal
           </div>
           <div className={clsx('text-slate-500', 'dark:text-slate-400')}>
             <LastUpdate />

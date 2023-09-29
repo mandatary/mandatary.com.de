@@ -53,7 +53,7 @@ function HeaderImage() {
             animate={controlsHeaderImage}
           >
             <Image
-              alt="Prabhjyoth Mattummal Illustration"
+              alt="manDatary logo Illustration"
               src="/assets/images/me.png"
               width={525}
               height={525}

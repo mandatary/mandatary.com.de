@@ -94,8 +94,8 @@ export const getPostStructuredData = ({
     author: [
       {
         '@type': 'Person',
-        name: 'Prabhjyoth Mattummal',
-        jobTitle: 'Data Engineer',
+        name: 'Rab',
+        jobTitle: 'SaaS WebApp',
         url: 'https://www.mandatary.com.de/about',
       },
     ],
