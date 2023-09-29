@@ -25,7 +25,7 @@ function HeaderTitle() {
         animate={animation.show}
         transition={{ delay: 0.1 }}
       >
-        hi, there!
+        hello!
         <m.div
           initial={{
             opacity: 0,
@@ -40,23 +40,7 @@ function HeaderTitle() {
             bounce: 0.7,
             duration: 0.7,
           }}
-        >
-          <Image
-            className={clsx('w-7 md:w-10')}
-            alt="Love-you Gesture"
-            src="/assets/emojis/love-you-gesture.png"
-            width={48}
-            height={48}
-            onLoadingComplete={() => {
-              controls.start({
-                opacity: 1,
-                y: 0,
-                rotate: 0,
-              });
-            }}
-            priority
-          />
-        </m.div>
+        />
       </m.div>
       <span className={clsx('text-slate-700', 'dark:text-slate-300')}>
         <m.span
@@ -68,11 +52,11 @@ function HeaderTitle() {
           animate={animation.show}
           transition={{ delay: 0.2 }}
         >
-          I&apos;m{' '}
+          It&apos;s{' '}
           <strong className={clsx('text-accent-600', 'dark:text-accent-500')}>
-            Prabhjyoth
-          </strong>{' '}
-          Mattummal,{' '}
+            man
+          </strong>
+          Datary,{' '}
         </m.span>
         <m.h1
           className={clsx(

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.mattummal.com',
+  siteUrl: 'https://www.mandatary.com.de',
   priority: 0.6,
   generateRobotsTxt: true,
   generateIndexSitemap: false,

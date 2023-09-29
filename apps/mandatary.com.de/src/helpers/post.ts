@@ -96,7 +96,7 @@ export const getPostStructuredData = ({
         '@type': 'Person',
         name: 'Prabhjyoth Mattummal',
         jobTitle: 'Data Engineer',
-        url: 'https://www.mattummal.com/about',
+        url: 'https://www.mandatary.com.de/about',
       },
     ],
   });

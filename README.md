@@ -2,15 +2,15 @@
   <h1>
     Prabhjyoth Mattummal
     &middot;
-    <img src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwww.mattummal.com"/>
-    <img src="https://img.shields.io/github/deployments/mattummal/mattummal.com/production?label=production&style=flat-square"/>
-    <img src="https://img.shields.io/github/commit-activity/m/mattummal/mattummal.com?style=flat-square"/>
+    <img src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwww.mandatary.com.de"/>
+    <img src="https://img.shields.io/github/deployments/mattummal/mandatary.com.de/production?label=production&style=flat-square"/>
+    <img src="https://img.shields.io/github/commit-activity/m/mattummal/mandatary.com.de?style=flat-square"/>
   </h1>
 </div>
 
 A monorepo for my personal website and projects, built with Turborepo and pnpm.
 
-## 📘 [mattummal.com](https://www.mattummal.com)
+## 📘 [mandatary.com.de](https://www.mandatary.com.de)
 
 A personal website with a blog, project showcase, and work information.
 
@@ -38,4 +38,4 @@ git push (Vercel)
 - 🍃 Tailwind CSS
 - ✍ MDX
 
-[FIND OUT MORE →](apps/mattummal.com)
+[FIND OUT MORE →](apps/mandatary.com.de)

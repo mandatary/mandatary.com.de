@@ -54,9 +54,9 @@ function HeaderImage() {
           >
             <Image
               alt="Prabhjyoth Mattummal Illustration"
-              src="/assets/images/me.jpg"
-              width={457}
-              height={526}
+              src="/assets/images/me.png"
+              width={525}
+              height={525}
               className={clsx(
                 'hidden max-w-none',
                 'lg:block',

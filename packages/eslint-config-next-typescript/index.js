@@ -2,7 +2,7 @@
 module.exports = {
   settings: {
     next: {
-      rootDir: 'apps/mattummal.com',
+      rootDir: 'apps/mandatary.com.de',
     },
   },
   plugins: ['@typescript-eslint', 'simple-import-sort'],
