@@ -9,7 +9,7 @@ function Index() {
     <>
       <Head
         title="manDatary · where tech meets mandate"
-        description="An online portfolio featuring a showcase of my projects and some thoughts as a Data Engineer who loves designing intuitive, clean and modern DevOps/Data pipelines."
+        description="manDatary: Where Tech Meets Mandate – Unlocking the Future of Data Engineering and Predictive Modeling"
         ogImage={`${getBaseUrl()}/assets/images/og-image.png`}
         overrideTitle
       />

@@ -25,7 +25,7 @@ function HeaderTitle() {
         animate={animation.show}
         transition={{ delay: 0.1 }}
       >
-        we are
+        welcome, we are
         <m.div
           initial={{
             opacity: 0,
@@ -67,16 +67,12 @@ function HeaderTitle() {
           animate={animation.show}
           transition={{ delay: 0.3 }}
         >
-          <span className={clsx('lowercase')}>A</span>{' '}
-          <strong
-            className={clsx(
-              'font-bold lowercase text-slate-700',
-              'dark:text-slate-300'
-            )}
-          >
-            Unlocking the Future of
-          </strong>{' '}
-          which loves designing intuitive,{' '}
+          <span className={clsx('block')}>
+            where the convergence of technology and mandate,
+          </span>{' '}
+          <span className={clsx('block')}>
+            leads to boundless possibilities in the realm of
+          </span>
           <span className={clsx('block')}>
             Data Engineering and Predictive Modelling.{' '}
           </span>
