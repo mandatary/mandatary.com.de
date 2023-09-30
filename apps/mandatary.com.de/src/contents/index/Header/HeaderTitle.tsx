@@ -74,11 +74,11 @@ function HeaderTitle() {
               'dark:text-slate-300'
             )}
           >
-            Data Engineering platform
+            Unlocking the Future of
           </strong>{' '}
           which loves designing intuitive,{' '}
           <span className={clsx('block')}>
-            clean and modern DevOps/Data pipelines.{' '}
+            Data Engineering and Predictive Modelling.{' '}
           </span>
         </m.h1>
       </span>
