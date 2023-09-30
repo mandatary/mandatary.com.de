@@ -13,7 +13,7 @@ import dayjs from '@/utils/dayjs';
 function LastUpdate() {
   return (
     <a
-      href="https://github.com/mattummal/mandatary.com.de"
+      href="https://github.com/manDatary/mandatary.com.de"
       target="_blank"
       rel="noreferrer nofollow"
       className={clsx('hover:underline')}
@@ -112,8 +112,8 @@ function FooterDescription() {
         About Me
       </div>
       <p className={clsx('mb-4 font-normal leading-relaxed')}>
-        I&apos;m manDatary, a <strong>Data Engineer</strong> who loves designing
-        intuitive, clean and modern DevOps/Data pipelines.
+        It&apos;s manDatary, a <strong>Data Engineering platform</strong> which
+        loves designing intuitive, clean and modern DevOps/Data pipelines.
       </p>
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
@@ -225,7 +225,7 @@ function Footer() {
                     },
                     {
                       title: 'Source Code',
-                      href: 'https://github.com/mattummal/mandatary.com.de',
+                      href: 'https://github.com/manDatary/mandatary.com.de',
                       isInternal: false,
                     },
                     {
@@ -245,7 +245,7 @@ function Footer() {
           )}
         >
           <div className={clsx('font-semibold')}>
-            &copy; {dayjs().format('YYYY')}, manDatary Mattummal
+            &copy; {dayjs().format('YYYY')}, manDatary
           </div>
           <div className={clsx('text-slate-500', 'dark:text-slate-400')}>
             <LastUpdate />

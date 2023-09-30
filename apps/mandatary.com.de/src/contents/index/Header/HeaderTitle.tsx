@@ -25,7 +25,7 @@ function HeaderTitle() {
         animate={animation.show}
         transition={{ delay: 0.1 }}
       >
-        hello!
+        we are
         <m.div
           initial={{
             opacity: 0,
@@ -52,7 +52,6 @@ function HeaderTitle() {
           animate={animation.show}
           transition={{ delay: 0.2 }}
         >
-          It&apos;s{' '}
           <strong className={clsx('text-accent-600', 'dark:text-accent-500')}>
             man
           </strong>
@@ -75,9 +74,9 @@ function HeaderTitle() {
               'dark:text-slate-300'
             )}
           >
-            Data Engineer
+            Data Engineering platform
           </strong>{' '}
-          who loves designing intuitive,{' '}
+          which loves designing intuitive,{' '}
           <span className={clsx('block')}>
             clean and modern DevOps/Data pipelines.{' '}
           </span>

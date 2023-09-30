@@ -1,33 +1,33 @@
+import { Ultra } from '@next/font/google';
 import clsx from 'clsx';
 import { m } from 'framer-motion';
 
 import {
-  NextJsIcon,
-  ReactIcon,
-  TailwindCssIcon,
-  TypeScriptIcon,
-  VSCodeIcon,
-  ScalaIcon,
-  PostgresIcon,
-  RIcon,
-  StackOverflowIcon,
-  AnsibleIcon,
-  GCPIcon,
-  PythonIcon,
-  KafkaIcon,
   AirflowIcon,
-  KubernetesIcon,
-  PShellIcon,
+  AnsibleIcon,
+  AWSIcon,
+  AzureIcon,
+  DockerIcon,
+  GCPIcon,
   IJIdeaIcon,
   JenkinsIcon,
-  VIMIcon,
+  KafkaIcon,
+  KubernetesIcon,
+  NextJsIcon,
+  PostgresIcon,
+  PShellIcon,
+  PythonIcon,
+  ReactIcon,
+  RIcon,
+  ScalaIcon,
   SparkIcon,
+  StackOverflowIcon,
+  TailwindCssIcon,
   TerraformIcon,
-  AzureIcon,
-  AWSIcon,
-  DockerIcon,
+  TypeScriptIcon,
+  VIMIcon,
+  VSCodeIcon,
 } from '@/components/Icons';
-import { Ultra } from '@next/font/google';
 
 const animation = {
   hide: { x: -8, opacity: 0 },
@@ -46,7 +46,7 @@ function HeaderTechStack() {
         animate={animation.show}
         transition={{ delay: 0.6 }}
       >
-        profound appreciation for the following technology stack and tools:
+        our technology stack and tools:
       </m.p>
       <m.ul
         className={clsx(

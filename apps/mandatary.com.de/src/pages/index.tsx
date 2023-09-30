@@ -8,7 +8,7 @@ function Index() {
   return (
     <>
       <Head
-        title="manDatary Mattummal · Data Engineer"
+        title="manDatary · Developing"
         description="An online portfolio featuring a showcase of my projects and some thoughts as a Data Engineer who loves designing intuitive, clean and modern DevOps/Data pipelines."
         ogImage={`${getBaseUrl()}/assets/images/og-image.png`}
         overrideTitle

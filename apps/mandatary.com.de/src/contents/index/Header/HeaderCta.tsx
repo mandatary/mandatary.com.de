@@ -26,7 +26,7 @@ function ButtonContactMe() {
       href="/work/contact"
       className={clsx('button button--solid min-w-[128px]', 'md:button--big')}
     >
-      Get in Touch
+      virtual meet & greet
     </Link>
   );
 }
@@ -36,11 +36,11 @@ function ButtonResume() {
     <a
       target="_blank"
       rel="noreferrer nofollow"
-      href="https://me.mandatary.com.de/CV/technical_CV.pdf"
+      href="https://me.mandatary.com.de/technical-documentation"
       className={clsx('button button--ghost px-2', 'md:button--big md:px-2')}
     >
       <DocumentIcon className={clsx('h-5 w-5')} />
-      curriculum vitae
+      documentation
     </a>
   );
 }
@@ -68,7 +68,7 @@ function AvailableForHire() {
           )}
         />
       </span>
-      Freelancing? Sure, I am!
+      We are available for hire!
     </div>
   );
 }

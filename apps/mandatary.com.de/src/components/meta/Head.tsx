@@ -27,7 +27,7 @@ function Head({
     <NextHead>
       <title>{htmlTitle}</title>
       <meta name="description" content={description} />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/ouricon.ico" />
 
       {/* seo */}
       <link rel="canonical" href={currentUrl} />
@@ -40,8 +40,8 @@ function Head({
 
       {/* twitter card */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@mattummal" />
-      <meta name="twitter:creator" content="@mattummal" />
+      <meta name="twitter:site" content="@manDatary" />
+      <meta name="twitter:creator" content="@manDatary" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />

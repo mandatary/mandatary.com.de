@@ -74,7 +74,7 @@ function Navbar() {
             </li>
             <li className={clsx('hidden', 'sm:block')}>
               <NavIcon
-                href="https://github.com/mattummal"
+                href="https://github.com/manDatary"
                 icon={<GitHubIcon className={clsx('h-5 w-5')} />}
                 title="GitHub"
               />

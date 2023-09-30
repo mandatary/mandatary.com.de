@@ -1,10 +1,10 @@
 <div>
   <h1>
-    manDatary Mattummal
+    manDatary
     &middot;
     <img src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwww.mandatary.com.de"/>
-    <img src="https://img.shields.io/github/deployments/mattummal/mandatary.com.de/production?label=production&style=flat-square"/>
-    <img src="https://img.shields.io/github/commit-activity/m/mattummal/mandatary.com.de?style=flat-square"/>
+    <img src="https://img.shields.io/github/deployments/manDatary/mandatary.com.de/production?label=production&style=flat-square"/>
+    <img src="https://img.shields.io/github/commit-activity/m/manDatary/mandatary.com.de?style=flat-square"/>
   </h1>
 </div>
 

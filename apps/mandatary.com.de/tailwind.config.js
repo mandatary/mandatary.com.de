@@ -56,8 +56,8 @@ module.exports = {
     },
     require('@headlessui/tailwindcss'),
     require('tailwindcss-accent')({
-      colors: ['violet', 'blue'],
-      root: 'violet',
+      colors: ['red', 'emerald'],
+      root: 'emerald',
     }),
   ],
 };
