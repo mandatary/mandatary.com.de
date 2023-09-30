@@ -55,7 +55,7 @@ function HeaderTitle() {
           <strong className={clsx('text-accent-600', 'dark:text-accent-500')}>
             man
           </strong>
-          Datary,{' '}
+          Datary ;){' '}
         </m.span>
         <m.h1
           className={clsx(

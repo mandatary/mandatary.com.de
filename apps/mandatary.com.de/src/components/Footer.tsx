@@ -109,19 +109,20 @@ function FooterDescription() {
           'dark:text-slate-400'
         )}
       >
-        About Me
+        About Us
       </div>
+      <p>Mandate manDatary today!</p>
       <p className={clsx('mb-4 font-normal leading-relaxed')}>
-        It&apos;s manDatary, a <strong>Data Engineering platform</strong> which
-        loves designing intuitive, clean and modern DevOps/Data pipelines.
+        it&apos;s manDatary - <strong>where tech meets mandate </strong>
       </p>
+
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
           <a
             href="https://twitter.com/_manDatary"
             target="_blank"
             rel="noreferrer nofollow"
-            className={clsx('flex h-9 w-9 items-center justify-center')}
+            className={clsx('flex h-11 w-11 items-center justify-center')}
             aria-label="My Twitter profile"
             title="My Twitter profile"
           >
@@ -133,7 +134,7 @@ function FooterDescription() {
             href="https://github.com/mandatary"
             target="_blank"
             rel="noreferrer nofollow"
-            className={clsx('flex h-9 w-9 items-center justify-center')}
+            className={clsx('flex h-11 w-11 items-center justify-center')}
             aria-label="My GitHub profile"
             title="My GitHub profile"
           >
@@ -145,7 +146,7 @@ function FooterDescription() {
             href="https://figma.com/@manDatary"
             target="_blank"
             rel="noreferrer nofollow"
-            className={clsx('flex h-9 w-9 items-center justify-center')}
+            className={clsx('flex h-11 w-11 items-center justify-center')}
             aria-label="My Figma profile"
             title="My Figma profile"
           >

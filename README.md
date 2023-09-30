@@ -8,7 +8,7 @@
   </h1>
 </div>
 
-A monorepo for my personal website and projects, built with Turborepo and pnpm.
+A monorepo for our website and projects, built with Turborepo and pnpm.
 
 ## 📘 [mandatary.com.de](https://www.mandatary.com.de)
 
