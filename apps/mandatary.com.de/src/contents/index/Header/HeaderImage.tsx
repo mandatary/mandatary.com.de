@@ -55,8 +55,8 @@ function HeaderImage() {
             <Image
               alt="manDatary logo Illustration"
               src="/assets/images/me-green.svg"
-              width={525}
-              height={525}
+              width={420}
+              height={420}
               className={clsx('lg:block', 'dark:brightness-[.82]')}
               quality={100}
               priority
