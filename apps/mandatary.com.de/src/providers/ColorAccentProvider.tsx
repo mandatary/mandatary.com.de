@@ -16,7 +16,7 @@ function ColorAccentProvider({
     document.documentElement.setAttribute('data-accent', defaultScheme);
 
     if (pathname.includes('/work/')) {
-      document.documentElement.setAttribute('data-accent', 'blue');
+      document.documentElement.setAttribute('data-accent', 'emerald');
     }
   }, [pathname, defaultScheme]);
 
