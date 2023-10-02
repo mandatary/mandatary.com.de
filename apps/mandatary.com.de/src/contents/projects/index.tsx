@@ -16,7 +16,7 @@ function ProjectsContents() {
     <>
       <div style={{ marginBottom: '25px' }}>
         <SectionTitle
-          title="Olympics Data Pipeline - Azure Data Engineering"
+          title="Data Pipeline & Models"
           caption="olympics-data-pipeline"
           description="Harnessing the power of Azure to shape colossal datasets into valuable insights."
           button={{
