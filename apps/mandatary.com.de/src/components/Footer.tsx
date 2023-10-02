@@ -185,8 +185,8 @@ function Footer() {
                     { title: 'Contact', href: '/work/contact' },
                     { title: 'Experience', href: '/work/experience' },
                     {
-                      title: 'Services',
-                      href: '/work/services',
+                      title: 'SaaS',
+                      href: '/work/saas',
                       label: 'soon',
                     },
                     {
@@ -204,7 +204,7 @@ function Footer() {
                       href: '/docs',
                     },
                     {
-                      title: 'Our Articles',
+                      title: 'Articles',
                       href: '/Articles',
                     },
                     {
@@ -217,18 +217,8 @@ function Footer() {
               </div>
               <div className={clsx('flex', 'sm:gap-16')}>
                 <FooterGroup
-                  title="This Site"
+                  title="www.mandatary.com.de"
                   links={[
-                    {
-                      title: 'Design Concept',
-                      href: 'https://www.figma.com/community/file/1176392613303840973',
-                      isInternal: false,
-                    },
-                    {
-                      title: 'Source Code',
-                      href: 'https://github.com/manDatary/mandatary.com.de',
-                      isInternal: false,
-                    },
                     {
                       title: 'Credits',
                       href: '/credits',
