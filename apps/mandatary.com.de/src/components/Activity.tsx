@@ -53,7 +53,7 @@ function ActivityItem({
           {contentTitle}
         </span>
         <span className={clsx('lowercase')}>
-          {contentType.replace('POST', 'BLOG POST')}
+          {contentType.replace('POST', 'Articles POST')}
         </span>
         <span>got new</span>
         {count !== 1 && (
@@ -83,7 +83,7 @@ function ActivityItem({
         {contentTitle}
       </span>
       <span className={clsx('lowercase')}>
-        {contentType.replace('POST', 'BLOG POST')}
+        {contentType.replace('POST', 'Articles POST')}
       </span>
       <span>was shared</span>
       {type === 'TWITTER' && <span>to Twitter!</span>}
@@ -147,7 +147,8 @@ function Activity({ onItemClick = () => {} }: ActivityProps) {
     return data.map((activity) => {
       const { createdAt, contentType, slug } = activity;
 
-      const link = contentType === 'POST' ? `/blog/${slug}` : `/docs/${slug}`;
+      const link =
+        contentType === 'POST' ? `/Articles/${slug}` : `/docs/${slug}`;
 
       return (
         <m.div key={createdAt} variants={animation}>

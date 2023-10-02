@@ -17,7 +17,7 @@ module.exports = {
       return defaultValue(1.0);
     }
 
-    if (path === '/blog') {
+    if (path === '/Articles') {
       return defaultValue(0.9);
     }
 
@@ -25,7 +25,7 @@ module.exports = {
       return defaultValue(0.9);
     }
 
-    if (path === '/today-i-learned') {
+    if (path === '/Services') {
       return defaultValue(0.9);
     }
 

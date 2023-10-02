@@ -204,12 +204,12 @@ function Footer() {
                       href: '/docs',
                     },
                     {
-                      title: 'Personal Blog',
-                      href: '/blog',
+                      title: 'Our Articles',
+                      href: '/Articles',
                     },
                     {
-                      title: 'T.I.L',
-                      href: '/today-i-learned',
+                      title: 'Services',
+                      href: '/Services',
                       label: 'new',
                     },
                   ]}

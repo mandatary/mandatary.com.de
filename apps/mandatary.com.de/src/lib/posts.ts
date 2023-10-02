@@ -4,7 +4,7 @@ import path from 'path';
 
 import type { TPostFrontMatter } from '@/types';
 
-const postsDirectory = path.join(process.cwd(), 'src/pages/blog');
+const postsDirectory = path.join(process.cwd(), 'src/pages/Articles');
 
 export const getPostSlugs = () => {
   const fileNames = fs.readdirSync(postsDirectory);

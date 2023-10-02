@@ -86,7 +86,7 @@ export const getPostStructuredData = ({
 }) =>
   JSON.stringify({
     '@context': 'https://schema.org',
-    '@type': 'BlogPosting',
+    '@type': 'ArticlesPosting',
     headline: title,
     image: images,
     datePublished: formatDateISO(datePublished),

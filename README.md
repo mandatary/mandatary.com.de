@@ -12,7 +12,7 @@ A monorepo for our website and projects, built with Turborepo and pnpm.
 
 ## 📘 [mandatary.com.de](https://www.mandatary.com.de)
 
-A personal website with a blog, project showcase, and work information.
+A personal website with a Articles, project showcase, and work information.
 
 ALWAYS RUN `nvm use 18` before starting the development.
 

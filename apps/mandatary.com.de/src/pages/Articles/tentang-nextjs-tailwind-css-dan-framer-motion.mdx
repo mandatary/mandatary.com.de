@@ -13,7 +13,7 @@ category: story
 import CodeGroup from '@/components/mdx/CodeGroup';
 import { QuickView } from '@/components/mdx/Link';
 
-Halo halo, udah seminggu aja nih semenjak postingan saya yang sebelumnya <QuickView href="/blog/fitur-multiple-reactions-di-nextjs">Fitur Multiple Reactions</QuickView>.
+Halo halo, udah seminggu aja nih semenjak postingan saya yang sebelumnya <QuickView href="/Articles/fitur-multiple-reactions-di-nextjs">Fitur Multiple Reactions</QuickView>.
 
 Kali ini ngga akan bahas fitur baru, tapi lebih ke cerita gimana sih rasanya menggunakan Next.js, Tailwind CSS, Framer Motion setelah sekitar tiga bulan lamanya.
 
@@ -37,13 +37,13 @@ Yang paling keren tuh, support SSG dan SSR. Tapi ini beberapa fitur yang saya su
 
 ### Routing
 
-Ini paling penting sih. Sudah support routing out-of-the-box. Bikin dynamic page juga kaya blog gampang banget.
+Ini paling penting sih. Sudah support routing out-of-the-box. Bikin dynamic page juga kaya Articles gampang banget.
 
 Dan yang paling saya suka itu API Routesnya. Bikin API endpoint tinggal gunain API Routesnya, yang juga udah disediain. Jadi ngga perlu setup Express lagi.
 
 ### Suport MDX
 
-Gampang banget implementasi markdown atau mdx untuk blogging menggunakan `@next/mdx`.
+Gampang banget implementasi markdown atau mdx untuk Articlesging menggunakan `@next/mdx`.
 
 Buat page biasa juga bisa, jadi bisa banget bikin page biasa formatnya mdx atau buat page yang kebanyakan konten 'writing'-nya.
 
@@ -206,7 +206,7 @@ Ada yang ngga enaknya? tentu ada.
   <div
     class="text-accent-600 dark:text-accent-400 hover:text-accent-700 hover:dark:text-accent-300 flex h-9 items-center gap-1 rounded-xl px-2 text-[13px] font-bold dark:font-semibold"
   >
-    Blog
+    Articles
   </div>
   ```
 
@@ -217,7 +217,7 @@ Ada yang ngga enaknya? tentu ada.
   ```html {title:index.html}
   <div class="nav-link">Home</div>
   <div class="nav-link">Projects</div>
-  <div class="nav-link">Blog</div>
+  <div class="nav-link">Articles</div>
   ```
 
   ```css {title:styles.css}

@@ -14,7 +14,7 @@ const animation = {
   },
 };
 
-function Blog() {
+function Articles() {
   return (
     <m.svg
       xmlns="http://www.w3.org/2000/svg"
@@ -39,4 +39,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Articles;

@@ -42,7 +42,7 @@ function NewPosts({ onItemClick = () => {} }: NewPostsProps) {
       >
         {Array.isArray(data) &&
           data.map(({ slug, title, createdAt }) => {
-            const link = `/blog/${slug}`;
+            const link = `/Articles/${slug}`;
 
             return (
               <m.div key={createdAt} variants={animation}>

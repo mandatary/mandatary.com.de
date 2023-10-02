@@ -2,13 +2,13 @@ import clsx from 'clsx';
 
 import useContentMeta from '@/hooks/useContentMeta';
 
-import PostPreview from '@/contents/blog/PostPreview';
+import PostPreview from '@/contents/Articles/PostPreview';
 
 import type { TPostFrontMatter } from '@/types';
 
 const PINNED_POST = 'tailwindcss-best-practices';
 
-export type BlogContentsProps = {
+export type ArticlesContentsProps = {
   posts: Array<{
     slug: string;
     frontMatter: TPostFrontMatter;
@@ -21,7 +21,7 @@ type TPostPreview = TPostFrontMatter & {
   views: number;
 };
 
-function BlogContents({ posts }: BlogContentsProps) {
+function ArticlesContents({ posts }: ArticlesContentsProps) {
   const { data } = useContentMeta();
 
   let pinnedPost: TPostPreview;
@@ -128,4 +128,4 @@ function BlogContents({ posts }: BlogContentsProps) {
   );
 }
 
-export default BlogContents;
+export default ArticlesContents;
