@@ -17,8 +17,8 @@ function NavIconQuickAccess() {
         'hover:bg-slate-300/70 sm:ml-0',
         'dark:bg-slate-800/50 dark:text-slate-100 dark:hover:bg-slate-700/50'
       )}
-      aria-label="Open Quick Access"
-      title="Open Quick Access"
+      aria-label="Open Mode"
+      title="Open Mode"
       onClick={() => {
         setQuickAccessOpen(true);
       }}
@@ -31,7 +31,7 @@ function NavIconQuickAccess() {
           'dark:font-normal'
         )}
       >
-        Quick Access
+        Mode
         <Kbd>Q</Kbd>
       </div>
     </button>

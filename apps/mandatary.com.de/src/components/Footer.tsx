@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 import {
   ExternalLink,
-  FigmaIcon,
   GitHubIcon,
+  LinkedInIcon,
   TwitterIcon,
 } from '@/components/Icons';
 
@@ -119,14 +119,26 @@ function FooterDescription() {
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
           <a
-            href="https://twitter.com/_manDatary"
+            href="https://linkedin.com/in/manDatary"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-11 w-11 items-center justify-center')}
-            aria-label="My Twitter profile"
-            title="My Twitter profile"
+            aria-label="Our LinkedIn profile"
+            title="Our LinkedIn profile"
           >
-            <TwitterIcon className={clsx('h-5 w-5')} />
+            <LinkedInIcon className={clsx('h-7 w-7')} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/manDatary"
+            target="_blank"
+            rel="noreferrer nofollow"
+            className={clsx('flex h-11 w-11 items-center justify-center')}
+            aria-label="Our Twitter profile"
+            title="Our Twitter profile"
+          >
+            <TwitterIcon className={clsx('h-7 w-7')} />
           </a>
         </li>
         <li>
@@ -138,19 +150,7 @@ function FooterDescription() {
             aria-label="My GitHub profile"
             title="My GitHub profile"
           >
-            <GitHubIcon className={clsx('h-5 w-5')} />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://figma.com/@manDatary"
-            target="_blank"
-            rel="noreferrer nofollow"
-            className={clsx('flex h-11 w-11 items-center justify-center')}
-            aria-label="My Figma profile"
-            title="My Figma profile"
-          >
-            <FigmaIcon className={clsx('h-5 w-5')} />
+            <GitHubIcon className={clsx('h-7 w-7')} />
           </a>
         </li>
       </ul>

@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import { GitHubIcon, TwitterIcon } from '@/components/Icons';
+import { LinkedInIcon, TwitterIcon } from '@/components/Icons';
 import NavIcon from '@/components/navigations/NavIcon';
 import NavIconQuickAccess from '@/components/navigations/NavIconQuickAccess';
 import NavLink from '@/components/navigations/NavLink';
@@ -67,18 +67,19 @@ function Navbar() {
           <ul className={clsx('flex items-center')}>
             <li className={clsx('hidden', 'sm:block')}>
               <NavIcon
-                href="https://twitter.com/_manDatary"
-                icon={<TwitterIcon className={clsx('h-5 w-5')} />}
-                title="Twitter"
+                href="https://linkedin.com/in/manDatary"
+                icon={<LinkedInIcon className={clsx('h-7 w-7')} />}
+                title="LinkedIn"
               />
             </li>
             <li className={clsx('hidden', 'sm:block')}>
               <NavIcon
-                href="https://github.com/manDatary"
-                icon={<GitHubIcon className={clsx('h-5 w-5')} />}
-                title="GitHub"
+                href="https://twitter.com/manDatary"
+                icon={<TwitterIcon className={clsx('h-7 w-7')} />}
+                title="Twitter"
               />
             </li>
+
             <li className={clsx('hidden', 'sm:block')}>
               <div
                 className={clsx(

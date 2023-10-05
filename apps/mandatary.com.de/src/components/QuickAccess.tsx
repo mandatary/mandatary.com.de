@@ -54,8 +54,8 @@ function QuickAccess() {
                 'hover:bg-slate-300/70 sm:ml-0',
                 'dark:bg-slate-800/50 dark:text-slate-100 dark:hover:bg-slate-700/50'
               )}
-              aria-label="Close Quick Access"
-              title="Close Quick Access"
+              aria-label="Close Mode"
+              title="Close Mode"
               onClick={() => setQuickAccessOpen(false)}
             >
               <XIcon className={clsx('h-5 w-5')} />
@@ -64,7 +64,7 @@ function QuickAccess() {
           <div
             data-accent="violet"
             className={clsx(
-              'fixed left-2 right-2 bottom-0 top-20 flex flex-col gap-6',
+              'fixed bottom-0 left-2 right-2 top-20 flex flex-col gap-6',
               'sm:left-auto sm:right-6 sm:top-24 sm:w-[320px]'
             )}
           >
@@ -79,7 +79,7 @@ function QuickAccess() {
             </div>
             <div
               className={clsx(
-                'fixed left-8 bottom-10 hidden w-[320px]',
+                'fixed bottom-10 left-8 hidden w-[320px]',
                 'md:block'
               )}
             >

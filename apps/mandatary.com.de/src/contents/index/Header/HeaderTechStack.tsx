@@ -13,6 +13,8 @@ import {
   KafkaIcon,
   KubernetesIcon,
   PostgresIcon,
+  PythonIcon,
+  RIcon,
   SparkIcon,
   TerraformIcon,
 } from '@/components/Icons';
@@ -45,6 +47,23 @@ function HeaderTechStack() {
         animate="show"
         transition={{ delayChildren: 0.6, staggerChildren: 0.025 }}
       >
+        <ul>
+          <m.li variants={animation} className="mb-2">
+            <div
+              className={clsx('transition duration-200 hover:text-[#3178C6]')}
+            >
+              <PythonIcon className={clsx('h-11 w-11')} />
+            </div>
+          </m.li>
+
+          <m.li variants={animation} className="mb-2">
+            <div
+              className={clsx('transition duration-200 hover:text-[#06B6D4]')}
+            >
+              <RIcon className={clsx('h-11 w-11')} />
+            </div>
+          </m.li>
+        </ul>
         <ul>
           <m.li variants={animation} className="mb-2">
             <div

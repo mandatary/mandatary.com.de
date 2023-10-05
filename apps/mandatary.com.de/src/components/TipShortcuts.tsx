@@ -10,11 +10,11 @@ const shortcuts: Array<{
   keys: Array<string>;
 }> = [
   {
-    title: 'Open Quick Access',
+    title: 'Open Mode',
     keys: ['Q'],
   },
   {
-    title: 'Close Quick Access',
+    title: 'Close Mode',
     keys: ['Q', 'Esc'],
   },
   {
