@@ -24,8 +24,8 @@ function FeaturedCardSection() {
               <SparklesIcon className={clsx('h-5 w-5 text-white')} />
             </div>
           }
-          title="Clean & Intuitive"
-          desc="Keep the UI clean with a modern touch without compromising UX."
+          title="Empowering Insights & Predictive Precision"
+          desc="Harness predictive precision for data-driven decisions."
         />
         <FeaturedCard
           icon={
@@ -38,8 +38,8 @@ function FeaturedCardSection() {
               <HeartIcon className={clsx('h-5 w-5 text-white')} />
             </div>
           }
-          title="Detail Oriented"
-          desc="Awareness to ease of access, UI consistency, and improved UX."
+          title="Navigating Tomorrow's Challenges with AI"
+          desc="Guiding businesses through tomorrow's challenges with advanced AI analytics."
         />
         <FeaturedCard
           icon={
@@ -52,8 +52,8 @@ function FeaturedCardSection() {
               <CodeIcon className={clsx('h-5 w-5 text-white')} />
             </div>
           }
-          title="Pretty & optimised"
-          desc="Writing clean code is a top priority while keeping it as optimised as possible."
+          title="Code Craftsmanship: Where Beauty Meets Efficiency"
+          desc="Where the artistry of coding meets the efficiency of optimization."
         />
       </div>
     </div>
