@@ -8,12 +8,12 @@ const nextConfig = {
   redirects: async () => [
     {
       source: '/work',
-      destination: '/work/skills-and-tools',
+      destination: '/work/mastery-and-instruments',
       permanent: false,
     },
     {
       source: '/docs',
-      destination: '/docs/tailwindcss-accent',
+      destination: '/docs/getting-started',
       permanent: false,
     },
   ],

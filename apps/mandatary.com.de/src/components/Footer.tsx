@@ -200,7 +200,7 @@ function Footer() {
                   title="Learn"
                   links={[
                     {
-                      title: 'Docs',
+                      title: 'Getting Started',
                       href: '/docs',
                     },
                     {
