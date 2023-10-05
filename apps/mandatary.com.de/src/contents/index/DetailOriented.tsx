@@ -6,9 +6,9 @@ function DetailOriented() {
   return (
     <header className={clsx('mb-8')}>
       <SectionTitle
-        title="Keen Eye for Spotting Small Details."
-        caption="Detail Oriented"
-        description="Awareness to ease of access, User Interface consistency, and improved User Experience."
+        caption="Unveiling Data Delights"
+        title="Sculpting Data Pipelines with Flawless Finesse"
+        description="Crafting masterpieces of data flow - precision, performance, and the artistry of accessibility."
       />
     </header>
   );

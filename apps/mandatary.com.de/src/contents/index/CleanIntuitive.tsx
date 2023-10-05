@@ -18,28 +18,32 @@ type Content = {
 
 const content: Array<Content> = [
   {
-    state: 'typography',
-    shows: ['typography'],
-    title: 'Typography',
-    description: 'Selecting the font type, font size, and font weight.',
+    state: 'data-analysis',
+    shows: ['data-analysis'],
+    title: 'Data Analysis',
+    description:
+      'Perform in-depth data analysis and generate actionable insights.',
   },
   {
-    state: 'spacing',
-    shows: ['typography', 'spacing'],
-    title: 'Spacing',
-    description: 'Positioning and adding spacing between elements.',
+    state: 'machine-learning',
+    shows: ['machine-learning', 'data-analysis'],
+    title: 'Machine Learning Models',
+    description:
+      'Develop and deploy predictive machine learning models for data-driven decision-making.',
   },
   {
-    state: 'colors',
-    shows: ['typography', 'spacing', 'colors'],
-    title: 'Colors',
-    description: 'Choosing a color scheme with sufficient contrast.',
+    state: 'data-visualization',
+    shows: ['data-visualization', 'data-analysis'],
+    title: 'Data Visualization',
+    description:
+      'Create informative and visually appealing data visualizations to communicate insights effectively.',
   },
   {
-    state: 'effects',
-    shows: ['typography', 'spacing', 'colors', 'effects'],
-    title: 'Effects',
-    description: 'Add effects like borders, shadows, rounded corners, etc.',
+    state: 'model-deployment',
+    shows: ['model-deployment', 'machine-learning', 'data-analysis'],
+    title: 'Model Deployment',
+    description:
+      'Deploy machine learning models into production environments for real-time predictions.',
   },
 ];
 
@@ -50,10 +54,9 @@ function CleanIntuitive() {
     <>
       <header className={clsx('mb-8')}>
         <SectionTitle
-          title="Eye Catching, Modern & Minimalist Design."
-          caption="Clean & Intuitive"
-          description="Keep the User Interface clean with a modern touch without
-            compromising the User Experience."
+          title="Pioneering Tech-Infused Engineering"
+          caption="Efficiency Meets Innovation"
+          description="Fusing cutting-edge technology with seamless efficiency, sculpting user interfaces to reach unprecedented heights."
         />
       </header>
       <SectionContent>
@@ -83,7 +86,12 @@ function CleanIntuitive() {
                   state={
                     currentState
                       ? currentState.shows
-                      : ['typography', 'spacing', 'colors', 'effects']
+                      : [
+                          'model-deployment',
+                          'machine-learning',
+                          'data-analysis',
+                          'data-visualization',
+                        ]
                   }
                 />
               </div>
@@ -92,13 +100,13 @@ function CleanIntuitive() {
                   state={
                     currentState
                       ? currentState.shows
-                      : ['typography', 'spacing', 'colors', 'effects']
+                      : [
+                          'model-deployment',
+                          'machine-learning',
+                          'data-analysis',
+                          'data-visualization',
+                        ]
                   }
-                  title="UI Implementation"
-                  description="Start creating UI components using React and Tailwind CSS."
-                  date="10:00 AM · Tomorrow"
-                  tag1="Design"
-                  tag2="Components"
                 />
               </div>
             </div>

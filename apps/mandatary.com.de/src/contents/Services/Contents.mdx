@@ -1,166 +1,68 @@
 import Services from '@/components/mdx/Services';
 
-<Services.Items date="2023-01-29">
-
+<Services.Items>
   <Services.Item>
-    
-    ## Tailwind CSS !important modifier
-
+    ## Predictive Analytics for Finance
     <Services.ItemTags>
-      <Services.ItemTag>tailwindcss</Services.ItemTag>
-      <Services.ItemTag>css</Services.ItemTag>
+      <Services.ItemTag>finance</Services.ItemTag>
+      <Services.ItemTag>predictive-analytics</Services.ItemTag>
     </Services.ItemTags>
-
-    Make any utility important by adding a `!` character to the beginning:
-
-    ```html
-    <p class="font-bold !font-medium">
-      This will be medium even though bold comes later in the CSS.
-    </p>
-    ```
-
-    [Official Docs](https://tailwindcss.com/docs/configuration#important-modifier)
-
+    Leverage the power of predictive analytics to make informed financial
+    decisions. Our tailored solutions harness data insights, enabling you to
+    navigate the complex financial landscape with confidence.
   </Services.Item>
-
-</Services.Items>
-
-<Services.Items date="2023-01-18">
-
   <Services.Item>
-    
-    ## nested backdrop-filter
-
+    ## Advanced Financial Modelling
     <Services.ItemTags>
-      <Services.ItemTag>css</Services.ItemTag>
+      <Services.ItemTag>finance</Services.ItemTag>
+      <Services.ItemTag>modelling</Services.ItemTag>
     </Services.ItemTags>
-
-    Backdrop filter tidak akan berhasil jika parent memiliki efek backdrop-filter juga.
-
-    [issue](https://bugs.chromium.org/p/chromium/issues/detail?id=993644) &mdash; [workaround](https://stackoverflow.com/questions/60997948/backdrop-filter-not-working-for-nested-elements-in-chrome)
-
+    Create intricate financial models that align with your specific business
+    requirements. Our modeling expertise empowers you to project financial
+    scenarios, plan for the future, and optimize your financial strategies.
   </Services.Item>
-
-</Services.Items>
-
-<Services.Items date="2023-01-17">
-
   <Services.Item>
-
-    ## pre overflow: scroll inside flex
-
+    ## Data-Driven Investment Strategies
     <Services.ItemTags>
-      <Services.ItemTag>css</Services.ItemTag>
-      <Services.ItemTag>pre</Services.ItemTag>
-      <Services.ItemTag>flex</Services.ItemTag>
+      <Services.ItemTag>finance</Services.ItemTag>
+      <Services.ItemTag>investment</Services.ItemTag>
+      <Services.ItemTag>data-analysis</Services.ItemTag>
     </Services.ItemTags>
-
-    Pernah pake `overflow-x: scroll` pada `pre` element tapi ngga ngaruh, malah parent yang ada scrollnya?
-
-    Mungkin parentnya didalem `display: flex`. Kalau iya, coba tambahin `min-width: 0` pada parentnya.
-
-    [Credit](https://weArticles.west-wind.com/posts/2016/feb/15/flexbox-containers-pre-tags-and-managing-overflow)
-
+    Develop investment strategies grounded in data analysis. We help you
+    identify investment opportunities, optimize portfolio allocation, and
+    maximize returns while managing risk.
   </Services.Item>
-
   <Services.Item>
-
-    ## import mdx file sebagai component
-
+    ## Fraud Detection and Prevention
     <Services.ItemTags>
-      <Services.ItemTag>react</Services.ItemTag>
-      <Services.ItemTag>mdx</Services.ItemTag>
+      <Services.ItemTag>finance</Services.ItemTag>
+      <Services.ItemTag>fraud-detection</Services.ItemTag>
+      <Services.ItemTag>analytics</Services.ItemTag>
     </Services.ItemTags>
-
-    Import mdx file di component, caranya mirip seperti import component biasa:
-
-    ```ts {copy:false} {footer:false}
-    import Contents from '@/mdx/Contents.mdx';
-
-    // Penggunaan
-    <Contents />
-    ```
-
-    Ternyata ada di [dokumentasinya](https://mdxjs.com/docs/using-mdx/#mdx-content). Biasakan membaca dulu ya gais jangan kaya saya wkwk.
-
+    Safeguard your financial operations with cutting-edge fraud detection and
+    prevention solutions. Our analytics-driven approach helps you detect and
+    mitigate fraudulent activities in real-time, protecting your assets.
   </Services.Item>
-
   <Services.Item>
-
-    ## :not() pseudo-class
-
+    ## Financial Product Optimization
     <Services.ItemTags>
-      <Services.ItemTag>css</Services.ItemTag>
-      <Services.ItemTag>selector</Services.ItemTag>
+      <Services.ItemTag>finance</Services.ItemTag>
+      <Services.ItemTag>product-optimization</Services.ItemTag>
+      <Services.ItemTag>modeling</Services.ItemTag>
     </Services.ItemTags>
-
-    Pake `:not()` ini emang agak tricky, salah penggunaan hasilnya juga bisa ngga sesuai harapan.
-
-    Contoh, styling inline `code` dimana bukan children dari `pre` ataupun `.code-block`. Penggunaannya:
-
-    <Services.DnD>
-      <Services.Dont>
-        ```css {copy:false} {footer:false}
-        :not(pre), :not(.code-block) {
-          > code {
-            background-color: 'red';
-          }
-        }
-        ```
-      </Services.Dont>
-      <Services.Do>
-        ```css {copy:false} {footer:false}
-        :not(pre, .code-block) {
-          > code {
-            background-color: 'red';
-          }
-        }
-        ```
-      </Services.Do>
-    </Services.DnD>
-
+    Optimize your financial products for superior performance and customer
+    satisfaction. We refine product offerings, enhance user experience, and
+    ensure your financial solutions align perfectly with market demands.
   </Services.Item>
-
-</Services.Items>
-
-<Services.Items date="2023-01-16">
-
   <Services.Item>
-
-    ## Turborepo dependsOn
-
+    ## Risk Management Solutions
     <Services.ItemTags>
-      <Services.ItemTag>turborepo</Services.ItemTag>
-      <Services.ItemTag>monorepo</Services.ItemTag>
+      <Services.ItemTag>finance</Services.ItemTag>
+      <Services.ItemTag>risk-management</Services.ItemTag>
+      <Services.ItemTag>analytics</Services.ItemTag>
     </Services.ItemTags>
-
-    ```json {copy:false} {footer:false}
-    "build": {
-      "dependsOn": ["^lint", "test"]
-    },
-    ```
-
-    `dependsOn` dengan ^ menandakan task dari package lain, sedangkan yang tanpa ^ task dari package itu sendiri.
-
-    Misal: app A pas mau build harus running tasks `lint` di semua package dependenciesnya, dan juga harus running task `test` app A itu sendiri.
-
+    Implement comprehensive risk management solutions tailored to the finance
+    sector. Our analytics-driven approach helps you identify, assess, and
+    mitigate risks, safeguarding your financial stability.
   </Services.Item>
-
-</Services.Items>
-
-<Services.Items date="2023-01-15">
-
-  <Services.Item>
-    
-    ## e.target.valueAsNumber
-
-    <Services.ItemTags>
-      <Services.ItemTag>html</Services.ItemTag>
-      <Services.ItemTag>js</Services.ItemTag>
-    </Services.ItemTags>
-
-    Pakai `e.target.valueAsNumber` untuk otomatis mengembalikan nilai input sebagai number. Tidak perlu `parseInt(e.target.value)` lagi.
-
-  </Services.Item>
-
 </Services.Items>

@@ -27,8 +27,8 @@ function HeaderImageAnimation({
       viewBox="0 0 457 526"
       fill="none"
       initial="hide"
-      animate="show"
-      strokeWidth={1.5}
+      animate="hide"
+      strokeWidth={0}
       strokeLinecap="round"
       strokeLinejoin="round"
       className={clsx(

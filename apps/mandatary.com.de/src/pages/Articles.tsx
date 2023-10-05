@@ -16,7 +16,8 @@ function Articles({ posts }: ArticlesProps) {
     <Page
       frontMatter={{
         title: 'Our Articles',
-        description: 'Data voyages, Cloud stories, and DevOps thoughts.',
+        description:
+          'Exploring the Data Landscape, Unraveling Cloud Narratives, and Navigating DevOps Insights.',
       }}
       headerImage={<HeaderImage />}
     >

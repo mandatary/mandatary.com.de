@@ -111,9 +111,9 @@ function FooterDescription() {
       >
         About Us
       </div>
-      <p>Mandate manDatary today!</p>
+
       <p className={clsx('mb-4 font-normal leading-relaxed')}>
-        it&apos;s manDatary - <strong>where tech meets mandate </strong>
+        <strong>Mandate manDatary today!</strong>
       </p>
 
       <ul className={clsx('-ml-2 flex gap-1')}>
