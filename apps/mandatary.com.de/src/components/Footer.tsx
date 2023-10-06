@@ -122,11 +122,11 @@ function FooterDescription() {
             href="https://linkedin.com/in/manDatary"
             target="_blank"
             rel="noreferrer nofollow"
-            className={clsx('flex h-11 w-11 items-center justify-center')}
+            className={clsx('flex h-9 w-9 items-center justify-center')}
             aria-label="Our LinkedIn profile"
             title="Our LinkedIn profile"
           >
-            <LinkedInIcon className={clsx('h-7 w-7')} />
+            <LinkedInIcon className={clsx('h-9 w-9')} />
           </a>
         </li>
         <li>
@@ -134,11 +134,11 @@ function FooterDescription() {
             href="https://twitter.com/manDatary"
             target="_blank"
             rel="noreferrer nofollow"
-            className={clsx('flex h-11 w-11 items-center justify-center')}
+            className={clsx('flex h-9 w-9 items-center justify-center')}
             aria-label="Our Twitter profile"
             title="Our Twitter profile"
           >
-            <TwitterIcon className={clsx('h-7 w-7')} />
+            <TwitterIcon className={clsx('h-9 w-9')} />
           </a>
         </li>
         <li>
@@ -146,11 +146,11 @@ function FooterDescription() {
             href="https://github.com/mandatary"
             target="_blank"
             rel="noreferrer nofollow"
-            className={clsx('flex h-11 w-11 items-center justify-center')}
+            className={clsx('flex h-9 w-9 items-center justify-center')}
             aria-label="My GitHub profile"
             title="My GitHub profile"
           >
-            <GitHubIcon className={clsx('h-7 w-7')} />
+            <GitHubIcon className={clsx('h-9 w-9')} />
           </a>
         </li>
       </ul>

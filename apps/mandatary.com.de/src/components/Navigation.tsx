@@ -68,14 +68,14 @@ function Navbar() {
             <li className={clsx('hidden', 'sm:block')}>
               <NavIcon
                 href="https://linkedin.com/in/manDatary"
-                icon={<LinkedInIcon className={clsx('h-7 w-7')} />}
+                icon={<LinkedInIcon className={clsx('h-8 w-8')} />}
                 title="LinkedIn"
               />
             </li>
             <li className={clsx('hidden', 'sm:block')}>
               <NavIcon
                 href="https://twitter.com/manDatary"
-                icon={<TwitterIcon className={clsx('h-7 w-7')} />}
+                icon={<TwitterIcon className={clsx('h-8 w-8')} />}
                 title="Twitter"
               />
             </li>
