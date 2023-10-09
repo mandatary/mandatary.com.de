@@ -73,7 +73,7 @@ function Quote() {
                 'dark:bg-slate-800'
               )}
             />
-            mandate.
+            mandate
           </strong>
         </span>
       </span>
