@@ -18,7 +18,7 @@ function LastUpdate() {
       rel="noreferrer nofollow"
       className={clsx('hover:underline')}
     >
-      <span>see the recent update on GitHub</span>
+      <span>Discover the latest enhancements on our GitHub repository.</span>
     </a>
   );
 }
